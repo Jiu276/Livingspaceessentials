@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livingspaceessentials - Home Living Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-home"></i>
+                <span>Livingspaceessentials</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transform Your Living Space</h1>
+            <p class="hero-subtitle">Discover the best home essentials, expert reviews, and inspiring ideas for modern living</p>
+            <div class="hero-buttons">
+                <button class="cta-button" onclick="location.href='products.html'">Shop Products</button>
+                <button class="cta-button-outline" onclick="location.href='blog.html'">Read Blog</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800" alt="Modern Living Room">
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-categories">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="furniture">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400" alt="Furniture">
+                    <h3>Furniture</h3>
+                    <p>Sofas, Tables & More</p>
+                </div>
+                <div class="category-card" data-category="decor">
+                    <img src="https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=400" alt="Decor">
+                    <h3>Home Decor</h3>
+                    <p>Art, Vases & Accents</p>
+                </div>
+                <div class="category-card" data-category="lighting">
+                    <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=400" alt="Lighting">
+                    <h3>Lighting</h3>
+                    <p>Lamps & Fixtures</p>
+                </div>
+                <div class="category-card" data-category="kitchen">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" alt="Kitchen">
+                    <h3>Kitchen</h3>
+                    <p>Cookware & Gadgets</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="latest-posts" class="posts-section">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="posts-grid" id="postsContainer"></div>
+            <div class="view-all-btn">
+                <button class="cta-button" onclick="location.href='blog.html'">View All Articles</button>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="products-carousel" id="featuredProducts"></div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest home living tips and exclusive deals</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <aside class="social-widget">
+        <div class="social-title">Follow Us</div>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-pinterest"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </aside>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Livingspaceessentials</h3>
+                    <p>Your trusted source for home living inspiration and quality products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Home Decor</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Lighting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@livingspaceessentials.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Home Street, City, ST 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Livingspaceessentials. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="posts.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

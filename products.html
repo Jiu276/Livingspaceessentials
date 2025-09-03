@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Livingspaceessentials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-home"></i>
+                <span>Livingspaceessentials</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search products...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-header">
+        <h1>Our Products</h1>
+        <p>Discover quality home essentials for every room</p>
+    </div>
+
+    <main class="container products-container">
+        <aside class="filters-sidebar">
+            <h3>Filter By</h3>
+            
+            <div class="filter-group">
+                <h4>Categories</h4>
+                <label><input type="checkbox" value="furniture"> Furniture</label>
+                <label><input type="checkbox" value="lighting"> Lighting</label>
+                <label><input type="checkbox" value="kitchen"> Kitchen</label>
+                <label><input type="checkbox" value="bedroom"> Bedroom</label>
+                <label><input type="checkbox" value="decor"> Home Decor</label>
+                <label><input type="checkbox" value="office"> Office</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Price Range</h4>
+                <label><input type="radio" name="price" value="0-50"> Under $50</label>
+                <label><input type="radio" name="price" value="50-100"> $50 - $100</label>
+                <label><input type="radio" name="price" value="100-500"> $100 - $500</label>
+                <label><input type="radio" name="price" value="500+"> Over $500</label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Rating</h4>
+                <label><input type="checkbox" value="4"> 4★ & above</label>
+                <label><input type="checkbox" value="3"> 3★ & above</label>
+            </div>
+
+            <button class="apply-filters-btn">Apply Filters</button>
+        </aside>
+
+        <section class="products-grid" id="productsGrid">
+            <!-- Products will be loaded here -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Livingspaceessentials</h3>
+                    <p>Your trusted source for home living inspiration and quality products.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">Home Decor</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Lighting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@livingspaceessentials.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Home Street, City, ST 12345</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Livingspaceessentials. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="products-data.js"></script>
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
