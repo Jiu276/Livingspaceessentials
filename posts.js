@@ -1,99 +1,35 @@
 const posts = [
     {
-        id: 1,
-        title: "10 Essential Living Room Furniture Pieces for Modern Homes",
-        category: "Furniture",
-        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600",
-        excerpt: "Transform your living space with these must-have furniture pieces that combine style and functionality. From comfortable sofas to versatile coffee tables, discover what makes a modern living room complete.",
-        content: "Creating the perfect living room starts with selecting the right furniture pieces. A comfortable sofa serves as the centerpiece, while accent chairs provide additional seating and style. Coffee tables offer both function and form, and entertainment centers keep your technology organized. Don't forget about storage solutions like ottomans and bookshelves that help maintain a clutter-free space.",
-        author: "Sarah Johnson",
-        date: "January 15, 2025",
-        readTime: "5 min read",
-        tags: ["furniture", "living room", "modern design", "home essentials"]
-    },
-    {
-        id: 2,
-        title: "Best Kitchen Gadgets of 2025: A Comprehensive Review",
-        category: "Kitchen",
-        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
-        excerpt: "Discover the latest kitchen innovations that are revolutionizing home cooking. We've tested and reviewed the top gadgets that will make your culinary experience more enjoyable and efficient.",
-        content: "The kitchen is the heart of every home, and having the right gadgets can transform your cooking experience. This year's standout products include smart instant pots with AI cooking assistance, precision coffee makers that remember your preferences, and multi-functional food processors that save counter space. We've tested each product for durability, ease of use, and value for money.",
-        author: "Michael Chen",
-        date: "January 22, 2025",
-        readTime: "8 min read",
-        tags: ["kitchen", "gadgets", "reviews", "cooking"]
-    },
-    {
-        id: 3,
-        title: "Creating a Cozy Bedroom Sanctuary: Design Tips and Product Recommendations",
-        category: "Bedroom",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
-        excerpt: "Turn your bedroom into a peaceful retreat with our expert design tips and carefully selected product recommendations. Learn how to create the perfect atmosphere for rest and relaxation.",
-        content: "Your bedroom should be your personal sanctuary, a place where you can unwind and recharge. Start with quality bedding – invest in breathable sheets, supportive pillows, and a comfortable mattress. Layer textures with throws and cushions for visual interest. Consider blackout curtains for better sleep quality, and add soft lighting options for ambiance. Don't forget about storage solutions that keep your space organized and clutter-free.",
-        author: "Emily Watson",
-        date: "January 28, 2025",
+        id: 11,
+        title: "Your Next Night Out Awaits. Find Tickets for Theatre & Comedy.",
+        category: "Entertainment",
+        image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=600",
+        excerpt: "Discover the magic of live entertainment with our comprehensive guide to finding the best theatre and comedy tickets. From Broadway shows to intimate comedy clubs, your perfect night out is just a click away.",
+        content: `<p>There's something magical about live entertainment that streaming services simply can't replicate. The energy of a live performance, the connection between performers and audience, and the shared experience of laughter or drama create memories that last a lifetime. Whether you're planning a romantic date night, a fun evening with friends, or a solo adventure into the world of performing arts, finding the right tickets has never been easier.</p>
+
+<p>When it comes to securing tickets for <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">theatre</a> and <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">comedy</a> shows, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a> has revolutionized the way we discover and purchase tickets. This innovative platform connects you with verified sellers and offers a secure marketplace for both popular Broadway productions and intimate local comedy venues.</p>
+
+<p><strong>Broadway and West End Productions</strong></p>
+<p>For <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">theatre</a> enthusiasts, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a> provides access to the most sought-after productions. From timeless classics like "The Lion King" and "Hamilton" to contemporary hits like "Wicked" and "Dear Evan Hansen," the platform ensures you can find tickets even for sold-out shows. The user-friendly interface allows you to compare prices from multiple sellers, ensuring you get the best value for your money.</p>
+
+<p><strong>Comedy Shows and Stand-up Specials</strong></p>
+<p>Comedy lovers will appreciate <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo's</a> extensive selection of <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">comedy</a> events. Whether you're looking for big-name comedians at major venues or discovering emerging talent at intimate clubs, the platform offers tickets for every budget and preference. From Netflix specials to local open mic nights, there's always something entertaining happening in your area.</p>
+
+<p><strong>Why Choose Ticombo for Your Entertainment Needs</strong></p>
+<p><a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a> stands out in the competitive ticket marketplace for several reasons. First, their verification system ensures that all sellers are legitimate, protecting you from scams and counterfeit tickets. Second, their transparent pricing model shows you exactly what you're paying, with no hidden fees or surprise charges at checkout.</p>
+
+<p>The platform's mobile-friendly design makes it easy to browse and purchase tickets on the go. Whether you're planning weeks in advance or looking for last-minute deals, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a> provides real-time availability and instant confirmation for most events.</p>
+
+<p><strong>Planning Your Perfect Night Out</strong></p>
+<p>When searching for <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">theatre</a> and <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">comedy</a> tickets, consider the venue size and your seating preferences. Larger venues offer spectacular production values and star-studded casts, while smaller venues provide intimate experiences and often lower prices. <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a> makes it easy to filter by venue, date, and price range to find exactly what you're looking for.</p>
+
+<p>Don't forget to check for matinee performances, which often offer better prices and are perfect for families with children. Many <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">theatre</a> productions also offer student discounts and group rates, making live entertainment more accessible to everyone.</p>
+
+<p>Your next unforgettable night out is waiting. With <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">Ticombo</a>, finding tickets for <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">theatre</a> and <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=cc26hRqgobC_b3UWwcYzxmfX_bNr1GpagDnnpYhkwin7F3OD3ksXw9mSnwSnX0rOpEDFew18bqsMA_c&new=https%3A%2F%2Fwww.ticombo.com">comedy</a> shows has never been easier or more secure. Start exploring today and create memories that will last a lifetime.</p>`,
+        author: "Jessica Martinez",
+        date: "October 15, 2025",
         readTime: "6 min read",
-        tags: ["bedroom", "design", "comfort", "sleep"]
-    },
-    {
-        id: 4,
-        title: "Smart Home Lighting: Transform Your Space with Intelligent Illumination",
-        category: "Lighting",
-        image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600",
-        excerpt: "Explore the world of smart lighting and learn how to create the perfect ambiance for every occasion. From color-changing bulbs to voice-controlled systems, discover what's possible.",
-        content: "Smart lighting has revolutionized how we illuminate our homes. With Wi-Fi enabled bulbs, you can control brightness, color temperature, and even colors from your smartphone. Set schedules to wake up naturally with gradually increasing light, or create movie night ambiance with a single tap. Integration with voice assistants makes control effortless, while energy-efficient LED technology saves money on electricity bills.",
-        author: "David Miller",
-        date: "February 5, 2025",
-        readTime: "7 min read",
-        tags: ["lighting", "smart home", "technology", "energy efficiency"]
-    },
-    {
-        id: 5,
-        title: "Minimalist Home Decor: Less is More in 2025",
-        category: "Decor",
-        image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600",
-        excerpt: "Embrace the minimalist lifestyle with our guide to decluttering and decorating your home. Learn how to create beautiful, functional spaces with carefully chosen pieces.",
-        content: "Minimalism in home decor isn't about having empty spaces – it's about being intentional with what you choose to display. Select pieces that serve both functional and aesthetic purposes. Focus on quality over quantity, choosing items made from natural materials like wood, stone, and linen. Use a neutral color palette as your base, adding personality through texture and carefully chosen accent pieces. Remember, every item should have a purpose or bring you joy.",
-        author: "Lisa Anderson",
-        date: "February 12, 2025",
-        readTime: "5 min read",
-        tags: ["minimalism", "decor", "organization", "lifestyle"]
-    },
-    {
-        id: 6,
-        title: "Top 5 Online Platforms for Home Essentials Shopping",
-        category: "Shopping Guide",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600",
-        excerpt: "Navigate the world of online home shopping with our comprehensive guide to the best platforms. Compare prices, selection, and customer service across top retailers.",
-        content: "Online shopping for home essentials has never been easier. Amazon offers unbeatable convenience and Prime delivery, while Wayfair specializes in furniture with excellent visualization tools. Target combines affordability with style, IKEA brings Scandinavian design to the masses, and West Elm caters to those seeking modern, upscale pieces. Each platform has unique strengths – from customer reviews to virtual room planners – helping you make informed decisions.",
-        author: "Robert Kim",
-        date: "February 18, 2025",
-        readTime: "10 min read",
-        tags: ["shopping", "online retail", "comparison", "guides"]
-    },
-    {
-        id: 7,
-        title: "Sustainable Living: Eco-Friendly Products for Your Home",
-        category: "Sustainability",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
-        excerpt: "Make your home more environmentally friendly with these sustainable product choices. From bamboo kitchenware to recycled furniture, discover eco-conscious alternatives.",
-        content: "Sustainable living starts at home. Choose products made from renewable materials like bamboo, cork, and reclaimed wood. Invest in energy-efficient appliances that reduce your carbon footprint and utility bills. Consider second-hand furniture – vintage pieces add character while keeping items out of landfills. Look for certifications like FSC for wood products and ENERGY STAR for appliances. Small changes in your purchasing habits can make a significant environmental impact.",
-        author: "Jennifer Green",
-        date: "February 25, 2025",
-        readTime: "6 min read",
-        tags: ["sustainability", "eco-friendly", "green living", "environment"]
-    },
-    {
-        id: 8,
-        title: "Home Office Setup: Essential Products for Remote Workers",
-        category: "Office",
-        image: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600",
-        excerpt: "Create a productive home office with our guide to essential furniture and accessories. From ergonomic chairs to cable management solutions, optimize your workspace.",
-        content: "A well-designed home office boosts productivity and comfort. Start with an ergonomic chair that supports proper posture during long work sessions. Pair it with an adjustable desk – standing desk converters are great for existing furniture. Good lighting reduces eye strain, while monitor arms create more desk space. Don't forget organization tools like cable management systems, desktop organizers, and filing solutions. Plants and personal touches make the space inviting while maintaining professionalism for video calls.",
-        author: "Thomas Wright",
-        date: "March 3, 2025",
-        readTime: "8 min read",
-        tags: ["home office", "productivity", "ergonomics", "remote work"]
+        tags: ["entertainment", "theatre", "comedy", "tickets", "night out"]
     },
     {
         id: 9,
@@ -143,6 +79,102 @@ const posts = [
         date: "March 10, 2025",
         readTime: "7 min read",
         tags: ["cleaning", "organization", "spring", "maintenance"]
+    },
+    {
+        id: 8,
+        title: "Home Office Setup: Essential Products for Remote Workers",
+        category: "Office",
+        image: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=600",
+        excerpt: "Create a productive home office with our guide to essential furniture and accessories. From ergonomic chairs to cable management solutions, optimize your workspace.",
+        content: "A well-designed home office boosts productivity and comfort. Start with an ergonomic chair that supports proper posture during long work sessions. Pair it with an adjustable desk – standing desk converters are great for existing furniture. Good lighting reduces eye strain, while monitor arms create more desk space. Don't forget organization tools like cable management systems, desktop organizers, and filing solutions. Plants and personal touches make the space inviting while maintaining professionalism for video calls.",
+        author: "Thomas Wright",
+        date: "March 3, 2025",
+        readTime: "8 min read",
+        tags: ["home office", "productivity", "ergonomics", "remote work"]
+    },
+    {
+        id: 7,
+        title: "Sustainable Living: Eco-Friendly Products for Your Home",
+        category: "Sustainability",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+        excerpt: "Make your home more environmentally friendly with these sustainable product choices. From bamboo kitchenware to recycled furniture, discover eco-conscious alternatives.",
+        content: "Sustainable living starts at home. Choose products made from renewable materials like bamboo, cork, and reclaimed wood. Invest in energy-efficient appliances that reduce your carbon footprint and utility bills. Consider second-hand furniture – vintage pieces add character while keeping items out of landfills. Look for certifications like FSC for wood products and ENERGY STAR for appliances. Small changes in your purchasing habits can make a significant environmental impact.",
+        author: "Jennifer Green",
+        date: "February 25, 2025",
+        readTime: "6 min read",
+        tags: ["sustainability", "eco-friendly", "green living", "environment"]
+    },
+    {
+        id: 6,
+        title: "Top 5 Online Platforms for Home Essentials Shopping",
+        category: "Shopping Guide",
+        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600",
+        excerpt: "Navigate the world of online home shopping with our comprehensive guide to the best platforms. Compare prices, selection, and customer service across top retailers.",
+        content: "Online shopping for home essentials has never been easier. Amazon offers unbeatable convenience and Prime delivery, while Wayfair specializes in furniture with excellent visualization tools. Target combines affordability with style, IKEA brings Scandinavian design to the masses, and West Elm caters to those seeking modern, upscale pieces. Each platform has unique strengths – from customer reviews to virtual room planners – helping you make informed decisions.",
+        author: "Robert Kim",
+        date: "February 18, 2025",
+        readTime: "10 min read",
+        tags: ["shopping", "online retail", "comparison", "guides"]
+    },
+    {
+        id: 5,
+        title: "Minimalist Home Decor: Less is More in 2025",
+        category: "Decor",
+        image: "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600",
+        excerpt: "Embrace the minimalist lifestyle with our guide to decluttering and decorating your home. Learn how to create beautiful, functional spaces with carefully chosen pieces.",
+        content: "Minimalism in home decor isn't about having empty spaces – it's about being intentional with what you choose to display. Select pieces that serve both functional and aesthetic purposes. Focus on quality over quantity, choosing items made from natural materials like wood, stone, and linen. Use a neutral color palette as your base, adding personality through texture and carefully chosen accent pieces. Remember, every item should have a purpose or bring you joy.",
+        author: "Lisa Anderson",
+        date: "February 12, 2025",
+        readTime: "5 min read",
+        tags: ["minimalism", "decor", "organization", "lifestyle"]
+    },
+    {
+        id: 4,
+        title: "Smart Home Lighting: Transform Your Space with Intelligent Illumination",
+        category: "Lighting",
+        image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?w=600",
+        excerpt: "Explore the world of smart lighting and learn how to create the perfect ambiance for every occasion. From color-changing bulbs to voice-controlled systems, discover what's possible.",
+        content: "Smart lighting has revolutionized how we illuminate our homes. With Wi-Fi enabled bulbs, you can control brightness, color temperature, and even colors from your smartphone. Set schedules to wake up naturally with gradually increasing light, or create movie night ambiance with a single tap. Integration with voice assistants makes control effortless, while energy-efficient LED technology saves money on electricity bills.",
+        author: "David Miller",
+        date: "February 5, 2025",
+        readTime: "7 min read",
+        tags: ["lighting", "smart home", "technology", "energy efficiency"]
+    },
+    {
+        id: 3,
+        title: "Creating a Cozy Bedroom Sanctuary: Design Tips and Product Recommendations",
+        category: "Bedroom",
+        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+        excerpt: "Turn your bedroom into a peaceful retreat with our expert design tips and carefully selected product recommendations. Learn how to create the perfect atmosphere for rest and relaxation.",
+        content: "Your bedroom should be your personal sanctuary, a place where you can unwind and recharge. Start with quality bedding – invest in breathable sheets, supportive pillows, and a comfortable mattress. Layer textures with throws and cushions for visual interest. Consider blackout curtains for better sleep quality, and add soft lighting options for ambiance. Don't forget about storage solutions that keep your space organized and clutter-free.",
+        author: "Emily Watson",
+        date: "January 28, 2025",
+        readTime: "6 min read",
+        tags: ["bedroom", "design", "comfort", "sleep"]
+    },
+    {
+        id: 2,
+        title: "Best Kitchen Gadgets of 2025: A Comprehensive Review",
+        category: "Kitchen",
+        image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
+        excerpt: "Discover the latest kitchen innovations that are revolutionizing home cooking. We've tested and reviewed the top gadgets that will make your culinary experience more enjoyable and efficient.",
+        content: "The kitchen is the heart of every home, and having the right gadgets can transform your cooking experience. This year's standout products include smart instant pots with AI cooking assistance, precision coffee makers that remember your preferences, and multi-functional food processors that save counter space. We've tested each product for durability, ease of use, and value for money.",
+        author: "Michael Chen",
+        date: "January 22, 2025",
+        readTime: "8 min read",
+        tags: ["kitchen", "gadgets", "reviews", "cooking"]
+    },
+    {
+        id: 1,
+        title: "10 Essential Living Room Furniture Pieces for Modern Homes",
+        category: "Furniture",
+        image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600",
+        excerpt: "Transform your living space with these must-have furniture pieces that combine style and functionality. From comfortable sofas to versatile coffee tables, discover what makes a modern living room complete.",
+        content: "Creating the perfect living room starts with selecting the right furniture pieces. A comfortable sofa serves as the centerpiece, while accent chairs provide additional seating and style. Coffee tables offer both function and form, and entertainment centers keep your technology organized. Don't forget about storage solutions like ottomans and bookshelves that help maintain a clutter-free space.",
+        author: "Sarah Johnson",
+        date: "January 15, 2025",
+        readTime: "5 min read",
+        tags: ["furniture", "living room", "modern design", "home essentials"]
     }
 ];
 
