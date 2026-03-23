@@ -4,11 +4,41 @@ function getUrlParameter(name) {
     return urlParams.get(name);
 }
 
+const SITE_TITLE_SUFFIX = 'Livingspaceessentials';
+
+function setArticlePageTitle(article) {
+    if (article && article.title) {
+        document.title = `${article.title} - ${SITE_TITLE_SUFFIX}`;
+    }
+}
+
+/** Resolve article from ?slug=... or legacy ?id=... */
+function findArticleFromQuery() {
+    if (typeof posts === 'undefined') return null;
+    const slugParam = getUrlParameter('slug');
+    const idParam = getUrlParameter('id');
+    if (slugParam) {
+        const decoded = decodeURIComponent(slugParam);
+        return posts.find(post => post.slug === decoded);
+    }
+    if (idParam) {
+        return posts.find(post => post.id == idParam);
+    }
+    return null;
+}
+
+// Set tab title as soon as scripts load (before DOMContentLoaded) so the browser bar shows the article name immediately
+(function syncArticleDocumentTitleFromUrl() {
+    const article = findArticleFromQuery();
+    if (article) {
+        setArticlePageTitle(article);
+    }
+})();
+
 // Render article content
-function renderArticle(articleId) {
-    const article = posts.find(post => post.id == articleId);
-    
+function renderArticle(article) {
     if (!article) {
+        document.title = `Article Not Found - ${SITE_TITLE_SUFFIX}`;
         document.getElementById('articleContent').innerHTML = `
             <div class="article-header">
                 <h1 class="article-title">Article Not Found</h1>
@@ -19,27 +49,9 @@ function renderArticle(articleId) {
         return;
     }
     
-    // Expand article content with more details
-    const expandedContent = `
-        <p>${article.content}</p>
-        
-        <h2>Key Takeaways</h2>
-        <ul>
-            <li>Quality products make a significant difference in daily life</li>
-            <li>Investing in durable items saves money in the long run</li>
-            <li>Good design enhances both functionality and aesthetics</li>
-            <li>Sustainable choices benefit both you and the environment</li>
-        </ul>
-        
-        <h2>Our Recommendations</h2>
-        <p>Based on extensive research and testing, we've curated a selection of products that meet our high standards for quality, design, and value. Every item featured in this article has been carefully evaluated to ensure it delivers on its promises.</p>
-        
-        <h2>Tips for Implementation</h2>
-        <p>Start small with one or two changes, then gradually incorporate more elements as you become comfortable. Remember that creating a beautiful living space is a journey, not a destination. Take time to enjoy the process and celebrate small victories along the way.</p>
-        
-        <h2>Final Thoughts</h2>
-        <p>Your home is a reflection of your personality and lifestyle. By choosing the right products and following expert advice, you can create a space that not only looks beautiful but also enhances your daily life. We hope this article has provided valuable insights and inspiration for your home improvement journey.</p>
-    `;
+    const bodyContent = typeof article.content === 'string' ? article.content.trim() : '';
+    const hasHtml = /<[^>]+>/.test(bodyContent);
+    const renderedContent = hasHtml ? bodyContent : `<p>${bodyContent}</p>`;
     
     const articleContent = document.getElementById('articleContent');
     articleContent.innerHTML = `
@@ -59,12 +71,12 @@ function renderArticle(articleId) {
         <img src="${article.image}" alt="${article.title}" class="article-hero-image">
         
         <div class="article-body">
-            ${expandedContent}
+            ${renderedContent}
         </div>
     `;
     
-    // Update page title
-    document.title = `${article.title} - Livingspaceessentials`;
+    // Update page title (also set early via syncArticleDocumentTitleFromUrl)
+    setArticlePageTitle(article);
     
     // Load article tags
     loadArticleTags(article.tags);
@@ -114,7 +126,7 @@ function renderRelatedPosts(posts) {
     
     relatedPostsContainer.innerHTML = posts.map(post => `
         <div class="related-post">
-            <a href="article.html?id=${post.id}" class="related-post-title">${post.title}</a>
+            <a href="${getArticleUrl(post)}" class="related-post-title">${post.title}</a>
             <span class="related-post-date">${post.date}</span>
         </div>
     `).join('');
@@ -174,8 +186,7 @@ function renderRelatedProducts(products) {
 // Share functionality
 function setupShareButtons() {
     const shareButtons = document.querySelectorAll('.share-btn');
-    const articleId = getUrlParameter('id');
-    const article = posts.find(post => post.id == articleId);
+    const article = findArticleFromQuery();
     
     if (!article) return;
     
@@ -211,13 +222,19 @@ function setupShareButtons() {
 
 // Page load
 document.addEventListener('DOMContentLoaded', () => {
-    const articleId = getUrlParameter('id');
-    
-    if (articleId) {
-        renderArticle(articleId);
+    const article = findArticleFromQuery();
+    const hasLegacyId = getUrlParameter('id');
+    const hasSlug = getUrlParameter('slug');
+
+    if (article) {
+        if (hasLegacyId && article.slug) {
+            history.replaceState(null, '', '?slug=' + encodeURIComponent(article.slug));
+        }
+        renderArticle(article);
         setupShareButtons();
+    } else if (hasLegacyId || hasSlug) {
+        renderArticle(null);
     } else {
-        // Redirect to blog if no ID
         window.location.href = 'blog.html';
     }
 });

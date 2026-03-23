@@ -19,7 +19,7 @@ function displayBlogPosts(category = 'all', page = 1) {
 
     // Display posts
     blogPostsContainer.innerHTML = paginatedPosts.map(post => `
-        <article class="blog-post-card" onclick="window.location.href='article.html?id=${post.id}'">
+        <article class="blog-post-card" onclick="window.location.href='${getArticleUrl(post)}'">
             <img src="${post.image}" alt="${post.title}" class="blog-post-image">
             <div class="blog-post-content">
                 <span class="blog-post-category">${post.category}</span>
@@ -88,7 +88,7 @@ function displayRecentPosts() {
     const recentPosts = posts.slice(0, 5);
     recentPostsContainer.innerHTML = recentPosts.map(post => `
         <div class="recent-post">
-            <div class="recent-post-title" onclick="window.location.href='article.html?id=${post.id}'">
+            <div class="recent-post-title" onclick="window.location.href='${getArticleUrl(post)}'">
                 ${post.title}
             </div>
             <div class="recent-post-date">${post.date}</div>
@@ -117,7 +117,7 @@ function searchBlogPosts(query) {
 
     // Display search results
     blogPostsContainer.innerHTML = searchResults.map(post => `
-        <article class="blog-post-card" onclick="window.location.href='article.html?id=${post.id}'">
+        <article class="blog-post-card" onclick="window.location.href='${getArticleUrl(post)}'">
             <img src="${post.image}" alt="${post.title}" class="blog-post-image">
             <div class="blog-post-content">
                 <span class="blog-post-category">${post.category}</span>
