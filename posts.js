@@ -16,6 +16,34 @@ function titleToSlug(title) {
 
 const posts = [
     {
+        id: 30,
+        title: "Reencle Creates Real Compost That Supports Soil, Food & Health",
+        category: "Sustainability",
+        image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200",
+        excerpt: "My countertop bin used to make something I proudly called compost. Then my cherry tomatoes laughed at me in plain English: watery, sad, nothing like my neighbor\'s garden. That petty jealousy turned out to be useful.",
+        content: `<p>I am not proud of how long I defended that beige dust. I ran onion skins and <a href="https://reencle.co/">food scraps</a> through a little machine, folded the lid down like I had solved morality, and sprinkled the crumbs on my pots while my basil still looked depressed. Across the fence, Mrs. Alvarez had a <a href="https://reencle.co/">compost</a> pile that smelled like earth after rain. Mine smelled like hot cereal. I told myself I did not have space for her setup. What I really did not have was honesty about <a href="https://reencle.co/">composting</a> in any serious sense.</p>
+
+<h3>The Small Humiliation That Helped</h3>
+
+<p>The turning point was embarrassingly small. I brought a handful of my cherry tomatoes to a potluck and watched someone politely eat one and reach for crackers. They were not cruel; they were hydrated. That night I stood in the kitchen with the compost bucket and felt silly - not eco-hero silly, more like I had been cosplaying a gardener. I started reading about what actually belongs in soil, and somewhere in that spiral I landed on <a href="https://reencle.co/">Reencle</a>. I was not shopping yet; I was trying to understand why some counter units brag about <a href="https://reencle.co/">drying and grinding</a> while others talk about <a href="https://reencle.co/">microbes</a> and something closer to <a href="https://reencle.co/">real compost</a>. The wording on their site felt annoyingly clear in a good way, like someone had finally named the gap between powder and life - and how <a href="https://reencle.co/">food waste</a> either feeds that chain or fakes it.</p>
+
+<h3>Soil Is Not Aesthetic; It Is Relationship</h3>
+
+<p>Here is the part I wish someone had said without the TED talk tone: soil is not a backdrop for Instagram. It is a messy negotiation between water, roots, and whatever you keep feeding <a href="https://reencle.co/">the soil</a>. When I stopped treating my scraps like a checklist and started asking whether the end material actually fed that negotiation, my balcony stopped feeling like a stage set. I still kill plants sometimes - wrong light, too much love - but the question shifted from am I a good person to is this stuff doing anything for the ground. That is where <a href="https://reencle.co/">soil</a>, the <a href="https://reencle.co/">food</a> I grow, and the quieter side of <a href="https://reencle.co/">health</a> (fewer mystery smells from the trash, less nightly guilt) stopped being three Pinterest words and started being one stubborn habit tied to <a href="https://reencle.co/">soil, food &amp; health</a> in the plainest, least glamorous way.</p>
+
+<h3>What I Actually Do With Food Waste Now</h3>
+
+<p>I still generate <a href="https://reencle.co/">food waste</a> because I am human and I buy lettuce with good intentions. The difference is I do not want my scraps to become a performance. A <a href="https://reencle.co/">home composter</a> is only interesting to me if it fits under real life: late work nights, a partner who will comment if something stinks, neighbors who can hear if I am slamming lids. I am not going to paste their whole FAQ here. I will say that after months of <a href="https://reencle.co/">home composting</a> research and comparing machines that turn dinner into confetti, I keep coming back to the same boring test: would I put this on a plant I actually eat? If the answer is a shy maybe, I am not done learning.</p>
+
+<h3>Why I Keep the Tab Open</h3>
+
+<p>I am not writing this as a brochure. I have not turned my apartment into a farm, and I still forget the odd peel when I am half asleep. What changed is I stopped mistaking neatness for impact. Companies will always show happy numbers; I look for plain language about what happens to <a href="https://reencle.co/">kitchen scraps</a> after the motor stops. <a href="https://reencle.co/">Reencle</a> is one of the places I read when I want that explanation without feeling like I am being sold a lifestyle - more like someone drew a line between <a href="https://reencle.co/">dehydrator dust</a> and something that could actually feed a bed, the kind of <a href="https://reencle.co/">real compost</a> I stopped pretending I already had. If you are in the same picky, skeptical mood I was in, start there and argue with the page a little. Your future tomatoes might thank you. Mine still owe me an apology, but we are working on it.</p>`,
+        author: "Rachel Kim",
+        date: "March 28, 2026",
+        readTime: "6 min read",
+        tags: ["Reencle", "compost", "food waste", "soil health", "sustainability"]
+    },
+    {
         id: 29,
         title: "ECOVACS DEEBOT: The First Robot Vacuum with PowerBoost Technology",
         category: "Cleaning",
