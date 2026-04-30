@@ -16,6 +16,34 @@ function titleToSlug(title) {
 
 const posts = [
     {
+        id: 31,
+        title: "Merlin Cycles Bikes – Road, Mountain, Gravel & Electric for Every Rider",
+        category: "Outdoor",
+        image: "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=1200",
+        excerpt: "From fast road weekends to weekday commutes, finding the right bike matters. Here is how I compare Merlin Cycles options across road, mountain, gravel, and electric riding.",
+        content: `<p>I used to think choosing a new bike was simple: pick a frame color, check the price, and hope for the best. After one season of sore wrists and a bike that never felt quite right, I changed my approach. I started comparing categories on <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">Merlin Cycles</a> and finally understood why one rider's "perfect" setup can feel wrong for someone else.</p>
+
+<h3>Road Bikes for Speed and Distance</h3>
+
+<p>If your weekends are built around long miles and smooth tarmac, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">road bikes</a> are usually the smartest starting point. The geometry is made for efficiency, and the lighter build helps when you are climbing or chasing pace lines. While browsing <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">Merlin Cycles bikes</a>, I focus on fit first, then drivetrain, then wheels. That order keeps me from paying extra for components that do not match how I actually ride.</p>
+
+<h3>Mountain Bikes for Control and Confidence</h3>
+
+<p>For rough trails, roots, and technical descents, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">mountain bikes</a> are built to absorb impact and keep handling predictable. Suspension travel, tire width, and brake setup make a huge difference on real terrain. I like comparing <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">Bikes</a> by trail type rather than by hype, and the category filters at <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">Merlin Cycles</a> help narrow down options quickly.</p>
+
+<h3>Gravel and Electric Bikes for Everyday Versatility</h3>
+
+<p>When your routes mix pavement, towpaths, and light trails, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">gravel bikes</a> often strike the best balance. They are fast enough on roads but stable enough for unpredictable surfaces. If commute distance or hills are your challenge, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">electric bikes</a> can make riding more consistent without removing the fun. The key is choosing the category that supports your routine, not just your dream ride.</p>
+
+<h3>How to Choose the Right Bike for You</h3>
+
+<p>My final checklist is simple: identify where you ride most, set a realistic budget, and prioritize bike fit over flashy upgrades. Exploring the lineup on <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">Merlin Cycles</a> made that process easier for me, especially when comparing <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">road</a>, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">mountain</a>, <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">gravel</a>, and <a href="https://www.linkhaitao.com/index.php?mod=lhdeal&track=5e2deVd1nIFK_aPino8TXIpNNSzv34NIV_aIhXVS9o3LF8SetsraKEI93GYuNPl9QORe_a2brjIEnRhJiA_c&new=https%3A%2F%2Fwww.merlincycles.com%2F">electric bikes</a> in one place. A well-matched bike does more than improve performance - it makes you want to ride again tomorrow.</p>`,
+        author: "Ethan Walker",
+        date: "April 18, 2026",
+        readTime: "6 min read",
+        tags: ["Merlin Cycles", "bikes", "road bikes", "mountain bikes", "gravel bikes", "electric bikes"]
+    },
+    {
         id: 30,
         title: "Reencle Creates Real Compost That Supports Soil, Food & Health",
         category: "Sustainability",
