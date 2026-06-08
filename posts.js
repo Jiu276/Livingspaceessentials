@@ -19,7 +19,7 @@ const posts = [
         id: 32,
         title: "From Weekend Roads to City Commutes: I Tried 4 Types of Riding and Only One Stuck",
         category: "Fashion",
-        image: "https://images.unsplash.com/photo-1517649763961-0c62306601b7?w=1200",
+        image: "https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=1200",
         excerpt: "Road miles, gravel detours, e-bike hills, and rainy city commutes taught me one thing: the right shoes matter as much as the bike. Here is what finally stuck after a season of trial and error.",
         content: `<p>Last spring I decided to ride more and drive less. I bought a decent hybrid, mapped a few routes, and told myself discipline would do the rest. What nobody warned me about was footwear - not clip-ins, not hype, just the quiet reality that your feet carry every mile. Over a few months I tested four <a href="https://www.grenson.com/uk/">riding</a> setups, and only one routine survived my actual life.</p>
 
