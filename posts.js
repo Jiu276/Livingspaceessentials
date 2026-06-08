@@ -1,4 +1,4 @@
-/** URL-safe slug from title (used in ?slug=... instead of numeric id) */
+﻿/** URL-safe slug from title (used in ?slug=... instead of numeric id) */
 function titleToSlug(title) {
     if (!title) return '';
     return title
@@ -15,6 +15,34 @@ function titleToSlug(title) {
 }
 
 const posts = [
+    {
+        id: 32,
+        title: "From Weekend Roads to City Commutes: I Tried 4 Types of Riding and Only One Stuck",
+        category: "Fashion",
+        image: "https://images.unsplash.com/photo-1517649763961-0c62306601b7?w=1200",
+        excerpt: "Road miles, gravel detours, e-bike hills, and rainy city commutes taught me one thing: the right shoes matter as much as the bike. Here is what finally stuck after a season of trial and error.",
+        content: `<p>Last spring I decided to ride more and drive less. I bought a decent hybrid, mapped a few routes, and told myself discipline would do the rest. What nobody warned me about was footwear - not clip-ins, not hype, just the quiet reality that your feet carry every mile. Over a few months I tested four <a href="https://www.grenson.com/uk/">riding</a> setups, and only one routine survived my actual life.</p>
+
+<h3>Weekend Roads: Fast Miles, Wrong Shoes</h3>
+
+<p>My first plan was simple: long <a href="https://www.grenson.com/uk/">Weekend</a> rides on open <a href="https://www.grenson.com/uk/">roads</a>, coffee stop, home by lunch. I wore stiff trainers that looked sporty in photos and felt fine for twenty minutes. By mile thirty my toes complained, and dismounting for traffic left me limping like a dramatic tourist. Pretty shoes are not always ride-ready shoes, and I learned that on a Sunday climb I did not enjoy.</p>
+
+<h3>Gravel and E-Bike Experiments</h3>
+
+<p>Next I tried looser weekend loops on mixed paths, then weekday <a href="https://www.grenson.com/uk/">electric</a> assist up the hill to work. Trail-friendly pairs helped on dirt, but they were bulky for office floors. Another pair was light for commuting yet wore down quickly in wet weather. I was rotating shoes like I rotated excuses, and my hallway looked like a clearance rack.</p>
+
+<h3>City Commutes: Where One Pair Finally Worked</h3>
+
+<p>The routine that stuck was not the flashiest ride type - it was daily <a href="https://www.grenson.com/uk/">city commutes</a> with one dependable pair I could walk in, ride in, and wear all day. While browsing <a href="https://www.grenson.com/uk/">Grenson</a>, I focused on build quality, sole grip, and comfort after pedaling. Their handmade heritage and modern <a href="https://www.grenson.com/uk/">sneakers</a> line made more sense than another pair of disposable trainers.</p>
+
+<h3>Why Grenson Became My Daily Default</h3>
+
+<p>What won me over was versatility. A solid <a href="https://www.grenson.com/uk/">Grenson</a> shoe handled pavement, cafe stops, and post-ride errands without a costume change. I still do occasional <a href="https://www.grenson.com/uk/">Weekend</a> road sessions, but my weekday flow is the one I protect. If you are testing <a href="https://www.grenson.com/uk/">riding</a> styles the way I did, start with your real commute, not your fantasy race calendar - then choose footwear from <a href="https://www.grenson.com/uk/">Grenson UK</a> that fits that truth.</p>`,
+        author: "Oliver Grant",
+        date: "June 14, 2026",
+        readTime: "6 min read",
+        tags: ["Grenson", "commute", "cycling", "footwear", "weekend riding"]
+    },
     {
         id: 31,
         title: "Merlin Cycles Bikes – Road, Mountain, Gravel & Electric for Every Rider",
