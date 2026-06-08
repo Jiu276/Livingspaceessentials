@@ -16,6 +16,44 @@ function titleToSlug(title) {
 
 const posts = [
     {
+        id: 33,
+        title: "One Piece of Gear Stopped Me from Envying Other People's Yards, Weekends, and Energy",
+        category: "Fashion",
+        image: "https://loremflickr.com/1200/800/backyard,garden,party",
+        excerpt: "I kept comparing my messy patio to perfect neighbor yards and their effortless weekends. One versatile dress from Phase Eight changed how I showed up - and how much energy I had left to enjoy it.",
+        content: `<p>For two summers I watched everyone else look rested. Their <a href="https://www.phase-eight.com/">yards</a> seemed magazine-ready, their <a href="https://www.phase-eight.com/">Weekend</a> plans looked spontaneous, and their <a href="https://www.phase-eight.com/">energy</a> felt unfair. I was tired before events even started, usually because I had changed outfits three times and still felt wrong for the occasion.</p>
+
+<img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200" alt="A well-kept garden yard that used to make me compare myself" class="article-inline-image">
+
+<h3>The Comparison Trap I Did Not Admit</h3>
+
+<p>It was never only about landscaping. I envied the ease - hosts who laughed in their own backyard while I hid in the kitchen fixing straps and hems. I bought trend pieces that worked once, then sat in my closet like evidence of bad decisions. What I needed was not another motivational quote. I needed one reliable piece of <a href="https://www.phase-eight.com/">Gear</a> that could carry me from coffee on the porch to dinner without a full reset.</p>
+
+<img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200" alt="Weekend plans that looked effortless from the outside" class="article-inline-image">
+
+<h3>How I Found Phase Eight</h3>
+
+<p>A friend showed up to a casual lunch in a linen midi that looked polished but not performative. She said it was from <a href="https://www.phase-eight.com/">Phase Eight</a>, a brand I had scrolled past but never tried. I went to <a href="https://www.phase-eight.com/">phase-eight.com</a> expecting another pretty catalog. Instead I found occasionwear that felt practical: dresses for weddings, race-day events, and those in-between <a href="https://www.phase-eight.com/">Weekend</a> gatherings where you want to look intentional without overdoing it.</p>
+
+<img src="https://loremflickr.com/1200/800/dress,occasion,wedding" alt="Occasion dress styles from Phase Eight" class="article-inline-image">
+
+<h3>One Dress, Three Real-Life Tests</h3>
+
+<p>I picked one <a href="https://www.phase-eight.com/">Phase</a> <a href="https://www.phase-eight.com/">Eight</a> midi and ran it through my actual life: a neighbor's garden party, a Saturday market brunch, and a weekday family dinner that turned into drinks on the patio. Same <a href="https://www.phase-eight.com/">Gear</a>, different shoes, no panic. The fabric moved well in heat, the fit stayed comfortable after hours, and I stopped checking my reflection every ten minutes.</p>
+
+<img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=1200" alt="One versatile dress worn across weekend occasions" class="article-inline-image">
+
+<h3>Why My Energy Finally Caught Up</h3>
+
+<p>When getting dressed stops draining you, your <a href="https://www.phase-eight.com/">energy</a> shows up in the right places - conversation, food, laughing with people you like. I still do not have the tidiest yard on the block, and my weekends are not always photogenic. But I am no longer mentally exhausted before the event begins. If you are stuck in the same envy loop, start with one dependable outfit from <a href="https://www.phase-eight.com/">Phase Eight</a> and test it in real life, not in your mirror under perfect lighting.</p>
+
+<img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200" alt="Confident and relaxed at a summer outdoor gathering" class="article-inline-image">`,
+        author: "Claire Morrison",
+        date: "June 22, 2026",
+        readTime: "6 min read",
+        tags: ["Phase Eight", "occasionwear", "weekend style", "dresses", "fashion"]
+    },
+    {
         id: 32,
         title: "From Weekend Roads to City Commutes: I Tried 4 Types of Riding and Only One Stuck",
         category: "Fashion",
