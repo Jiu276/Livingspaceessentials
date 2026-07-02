@@ -16,6 +16,46 @@ function titleToSlug(title) {
 
 const posts = [
     {
+        id: 34,
+        title: "Who Said Comfort Can't Look Good? My Zappos Jellies Say Otherwise.",
+        category: "Fashion",
+        image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=1200",
+        excerpt: "I showed up to a pool party in heels and paid for it all afternoon. One browse through Zappos later, I had jellies that actually looked put-together - and feet that did not hate me by sunset.",
+        content: `<p>My cousin hosted a pool party in May and I wore block heels because I am stubborn and occasionally dumb. By the second hour I was hiding my feet under a towel like a raccoon guarding trash. Someone walked past in clear sandals that looked sharp from ten feet away, and I asked where she got them. She said <a href="https://www.zappos.com/">Zappos</a>, rolled her eyes like that was obvious, and kept eating watermelon.</p>
+
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200" alt="Summer pool party where the wrong shoes became a problem fast" class="article-inline-image">
+
+<h3>I Did Not Plan to Buy Jellies</h3>
+
+<p>That night I opened <a href="https://www.zappos.com/">zappos.com</a> on my phone with low expectations. The homepage had this line - who said <a href="https://www.zappos.com/">comfort</a> can not look good, too - and I laughed because my feet were still sore. Then I clicked into the jelly section and got lost for twenty minutes. Sam Edelman, Jack Rogers, Tory Burch, prices all over the map. I was not shopping for a statement. I wanted something I could wear to brunch, then to the pool, then to Target without changing shoes three times.</p>
+
+<img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=1200" alt="Browsing summer shoe options on Zappos" class="article-inline-image">
+
+<h3>What Made Me Pick One Pair</h3>
+
+<p>I filtered by reviews first, not brand ego. On <a href="https://www.zappos.com/">Zappos</a> that is easy - sort by rating, read the sizing notes, ignore photos where everyone is standing on marble stairs like they live in a catalog. A lot of people said to size down in <a href="https://www.zappos.com/">Zappos Jellies</a>, which saved me a return. I landed on a thong sandal in a soft nude tone, nothing flashy, and free shipping meant I did not talk myself out of it for three days.</p>
+
+<h3>Three Days, Three Tests</h3>
+
+<p>Day one: coffee with a friend who owns too many plants. No blisters, no squeaky plastic sound on the sidewalk - I checked, repeatedly, like a weirdo. Day two: community pool with my niece. They got wet, dried fast, and still looked fine with a sundress. Day three: grocery run in ninety-degree heat. That was the real test. My old flats would have been off by aisle four. These stayed on and did not look like I had given up on life.</p>
+
+<img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1200" alt="Casual summer outfit with comfortable jelly sandals" class="article-inline-image">
+
+<h3>The Part Nobody Posts About</h3>
+
+<p>Jellies are not magic. They are not for hiking or standing on a wedding dance floor until midnight. But for the messy middle of summer - errands, patios, short walks, kid birthday parties where someone will definitely spill juice - they are the first shoes in months I reach for without negotiating with myself. I still keep nicer heels for actual events. I just stopped pretending those heels should also be my pool shoes.</p>
+
+<img src="https://images.unsplash.com/photo-1530549387789-4c1017266635?w=1200" alt="Poolside afternoon in shoes that handle water and still look good" class="article-inline-image">
+
+<h3>If You Are On the Fence</h3>
+
+<p>Start with one neutral pair from the <a href="https://www.zappos.com/">jelly shoes</a> page and read recent reviews about width and sizing. Check return policy before you order - I did, mostly because I have trust issues from other sites. If your summer calendar is half social and half survival errands, a good pair of <a href="https://www.zappos.com/">Zappos Jellies</a> might be the least dramatic upgrade you make all season. My feet finally agree.</p>`,
+        author: "Mia Thompson",
+        date: "June 5, 2026",
+        readTime: "6 min read",
+        tags: ["Zappos", "jelly shoes", "sandals", "comfort", "summer style"]
+    },
+    {
         id: 33,
         title: "One Piece of Gear Stopped Me from Envying Other People's Yards, Weekends, and Energy",
         category: "Fashion",
