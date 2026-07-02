@@ -61,6 +61,11 @@
     margin-right: 5px;
 }
 
+.post-clicks i {
+    color: var(--primary-color);
+    margin-right: 5px;
+}
+
 .author-info {
     display: flex;
     align-items: center;

@@ -32,6 +32,7 @@ function displayBlogPosts(category = 'all', page = 1) {
                     </div>
                     <span>${post.date}</span>
                     <span>${post.readTime}</span>
+                    ${renderPostClicksMeta(post)}
                 </div>
             </div>
         </article>
@@ -130,6 +131,7 @@ function searchBlogPosts(query) {
                     </div>
                     <span>${post.date}</span>
                     <span>${post.readTime}</span>
+                    ${renderPostClicksMeta(post)}
                 </div>
             </div>
         </article>

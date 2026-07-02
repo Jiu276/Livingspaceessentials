@@ -65,6 +65,7 @@ function renderArticle(article) {
                 </div>
                 <span><i class="fas fa-calendar"></i> ${article.date}</span>
                 <span><i class="fas fa-clock"></i> ${article.readTime}</span>
+                ${renderPostClicksMeta(article)}
             </div>
         </header>
         

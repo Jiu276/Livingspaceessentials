@@ -417,11 +417,23 @@ body {
 
 .post-meta {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid #eee;
+}
+
+.post-clicks {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+}
+
+.post-clicks i {
+    color: var(--primary-color);
+    margin-right: 4px;
 }
 
 .post-date {

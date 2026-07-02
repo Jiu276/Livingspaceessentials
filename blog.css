@@ -111,10 +111,17 @@
 
 .blog-post-meta {
     display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
     justify-content: space-between;
     align-items: center;
     font-size: 0.9rem;
     color: var(--text-gray);
+}
+
+.post-clicks i {
+    color: var(--primary-color);
+    margin-right: 4px;
 }
 
 .post-author {
